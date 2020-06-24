@@ -1,0 +1,121 @@
+/* ==============
+CSS Media Query
+================*/
+
+@media(max-width: 1024px){
+	.formSection {
+		width: 100%;
+	}
+	.messageSection {
+		width: 0;
+	}
+
+	#custom-label {
+		width: auto;
+	}
+
+	.row {
+		flex-direction: column;
+	}
+
+	.col-9 {
+		width: 100%;
+	}
+
+	.col-3 {
+		width: 100%;
+	}
+}
+
+@media(max-width: 765px){
+
+ .formSection {
+ 	width: 100%;
+ }
+
+ .messageSection {
+	 width: 0;
+ }
+
+ .table-section {
+ 	overflow-x: scroll;
+ }
+
+ .container {
+ 	margin: 0 1rem;
+ }
+
+
+ .col {
+ 	width: 50%;
+ }
+
+ .table {
+	 font-size: 1.3rem;
+ }
+
+ th {
+	 font-weight: 500;
+ }
+
+ #custom-label {
+	 width: 100%;
+	 font-size: 1rem;
+ }
+
+ #custom-label::after{
+	 font-size: .9rem;
+ }
+
+ #nav {
+ 	display: flex;
+ 	flex-direction: row;
+ 	height: auto;
+ }
+
+ .col-9 {
+	width: 100%;
+
+}
+
+.col-3 {
+	width: 100%;
+}
+
+.countSection {
+	margin: 2rem 0;
+}
+
+
+}
+
+@media(max-width: 480px){
+	.col {
+ 	width: 100%;
+ }
+
+ #custom-label::after {
+ 	font-size: .8rem;
+ 	padding: 0 1rem;
+ 	content: "Choose";
+ }
+
+ .container {
+ 	margin: 0 1rem;
+ }
+
+
+ .col-9 {
+	width: 100%;
+
+}
+
+.col-3 {
+	width: 100%;
+}
+
+.countSection {
+	margin: 2rem 0;
+}
+
+}

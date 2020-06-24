@@ -1,0 +1,9 @@
+body.darkMode{
+	background-color: #454545;
+}
+body.darkMode input[type="checkbox"]::before {
+    left: 65px;
+}
+body.darkMode input[type="checkbox"] {
+    background: linear-gradient(90deg, #db48e7, #ff5e5e);
+}
